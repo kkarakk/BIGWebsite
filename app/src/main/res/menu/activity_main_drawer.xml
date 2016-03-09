@@ -26,10 +26,7 @@
                 android:id="@+id/contact_content"
 
                 android:title="Contact Us" />
-            <item
-                android:id="@+id/social_media_content"
-
-                android:title="Social Media links" />
+           
         </menu>
     </item>
 
