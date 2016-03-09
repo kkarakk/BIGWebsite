@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_content"
+
+            android:title="Home" />
+        <item
+            android:id="@+id/group_content"
+
+            android:title="The Group" />
+        <item
+            android:id="@+id/sectors_content"
+
+            android:title="Sectors" />
+        <item
+            android:id="@+id/financial_content"
+
+            android:title="Financial Highlights" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/contact_content"
+
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/social_media_content"
+
+                android:title="Social Media links" />
+        </menu>
+    </item>
+
+</menu>

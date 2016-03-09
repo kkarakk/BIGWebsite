@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">BIG Website</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="financial_highlights">The BIG Financial Statements for the years of 2009 till 2013.\n\n\n
+    <string name="logistics_title">Logistics</string>
+        <string name="energy_title">energy</string>
+        <string name="construction_title">construction</string>
+We are Beyout Investment Group known as “BIG” across diverse industries in Kuwait and the MENA region. BIG was formed back in 2006 to manage a rapidly growing and diverse group of business portfolios that have been operating since 1991. Diversity, Synergy and Growth; are three words that summarize BIG’s strategy set towards achieving an ambitious vision sought by our leadership and shareholders which is: “To be at the core of the MENA region economy drivers”.\n\n\n
+
+BIG’s most valuable investment and asset is its highly talented and skilled pool of human resources, making the group a destination and target for serious career seekers from different industries, who seek a diverse and challenging business environment where they can exercise their creativity and skills through BIG’s journey for excellence.</string>
+    <string name="action_settings">Settings</string>
+    <string name="energy_content">BIG activities in this industry primarily focus on the OandG sector, which is led by its subsidiary. Its Mission is to become a regional market leader in providing fully integrated services in the OandG sector through an aggressive strategy and investment plan.</string>
+    <string name="logistics_content">This industry is a major investment for BIG. 3 subsidiaries; Kuwait, Qatar and UAE are presently developing and have been providing Human logistics for key market segments related to International Companies, Local Governments and Private corporations. As it stands our investment in this sector has defined our standing in the Kuwait market as a major player in providing soft logistics support services to a wide divers range of Industries.\n\n\n
+
+-IT and Telecom\n
+-Healthcare\n
+-Banking\n
+-Energy\n
+-Automotive\n
+-Infrastructure\n
+-EPCsMilitary\n</string>
+
+    <string name="construction_content">The civil construction industry is takes up a big part of BIG\'s asset portfolio which focuses on multiple branches of the Kuwait construction market. In Under the Civil Construction sector our subsidiary is classified as a 1st Grade Construction Company by the Central Tendering Committee and focuses on services varying from project management, construction, maintenance, mechanical and sanitary works.</string>
+
+    <string name="title_about_us">About us</string>
+    <string name="title_vision">Vision</string>
+    <string name="title_mission">Mission</string>
+    <string name="title_history">History</string>
+    <string name="content_about_us">We are Beyout Investment Group known as \“BIG\” across diverse industries in Kuwait and the MENA region. BIG was formed back in 2006 to manage a rapidly growing and diverse group of business portfolios that have been operating since 1991.  Diversity, Synergy and Growth; are three words that summarize BIG\’s strategy set towards achieving an ambitious vision sought by our leadership and shareholders which is: \“To be at the core of the MENA region economy drivers\”.\n\nBIG\’s most valuable investment and asset is its highly talented and skilled pool of human resources, making the group  a destination and target for serious career seekers from different industries, who seek a diverse and challenging business environment where they can exercise their creativity and skills through BIG\’s journey for excellence.</string>
+    <string name="content_vision">To be at the core of the MENA region economy drivers.</string>
+    <string name="content_mission">To become a well-recognized business group across the MENA region through our synergetic business diversity, value driven competitiveness and excellence in everything we invest in.</string>
+    <string name="content_history">We are Beyout Investment Group known as \“BIG\” across diverse industries in Kuwait and the MENA region. BIG was formed back in 2006 to manage a rapidly growing and diverse group of business portfolios that have been operating since 1991.\n\nDiversity, Synergy and Growth; are three words that summarize BIG\’s strategy set towards achieving an ambitious vision sought by our leadership and shareholders which is: \“To be at the core of the MENA region economy drivers\”.\n\nBIG\’s most valuable investment and asset is its highly talented and skilled pool of human resources, making the group  a destination and target for serious career seekers from different industries, who seek a diverse and challenging business environment where they can exercise their creativity and skills through BIG\’s journey for excellence.</string>
+    
+</resources>
