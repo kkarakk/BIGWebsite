@@ -71,12 +71,12 @@ public class MainActivity extends AppCompatActivity
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-        if(id==R.id.group_content)
-        {
-//            Intent intent=new Intent(this,GroupContentActivity.class);
-//            startActivity(intent);
-
-        }
+//        if(id==R.id.group_content)
+//        {
+////            Intent intent=new Intent(this,GroupContentActivity.class);
+////            startActivity(intent);
+//
+//        }
         //noinspection SimplifiableIfStatement
         //removed setting from action bar
 //        if (id == R.id.action_settings) {
@@ -120,10 +120,10 @@ public class MainActivity extends AppCompatActivity
                 fragment= new ContactcontentFragment();
                 title= "Connect With BIG";
                 break;
-            case R.id.social_media_content:
-                fragment= new SocialmediacontentFragment();
-                title= "Social Media Links";
-                break;
+//            case R.id.social_media_content:
+//                fragment= new SocialmediacontentFragment();
+//                title= "Social Media Links";
+//                break;
 
 
         }
