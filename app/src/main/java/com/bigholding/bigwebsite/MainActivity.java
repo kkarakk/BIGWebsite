@@ -15,6 +15,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.google.android.gms.maps.SupportMapFragment;
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -119,6 +121,7 @@ public class MainActivity extends AppCompatActivity
             case R.id.contact_content:
                 fragment= new ContactcontentFragment();
                 title= "Connect With BIG";
+
                 break;
 //            case R.id.social_media_content:
 //                fragment= new SocialmediacontentFragment();
@@ -132,6 +135,7 @@ public class MainActivity extends AppCompatActivity
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
             ft.replace(R.id.content_frame, fragment);
             ft.addToBackStack(null);
+
             ft.commit();
         }
 

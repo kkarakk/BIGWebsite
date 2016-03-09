@@ -10,11 +10,19 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.google.android.gms.maps.CameraUpdate;
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
+
 
 /**
  * Created by karan on 09-Mar-16.
  */
-public class ContactcontentFragment extends Fragment  {
+public class ContactcontentFragment extends Fragment implements OnMapReadyCallback {
 //    static final LatLng HAMBURG = new LatLng(53.558, 9.927);
 //    static final LatLng KIEL = new LatLng(53.551, 9.993);
 //    private GoogleMap map;
@@ -27,9 +35,14 @@ public class ContactcontentFragment extends Fragment  {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.contact_content_fragment,
                 container, false);
-
-//        supportMapFragment = (SupportMapFragment) getFragmentManager().findFragmentById(R.id.map);
-//        map = supportMapFragment.getMap();
+        SupportMapFragment mapFragment = (SupportMapFragment) this.getChildFragmentManager()
+                .findFragmentById(R.id.map);
+        mapFragment.getMapAsync(this);
+//
+//        MapFragment mapFragment = (android.support.v4.app.Fragment) getFragmentManager()
+//                .findFragmentById(R.id.map); mapFragment.getMapAsync(this);
+////        supportMapFragment = (SupportMapFragment) getFragmentManager().findFragmentById(R.id.map);
+////        map = supportMapFragment.getMap();
 ////        mapView.onCreate(savedInstanceState);
 ////        map =mapView.getMap();
 ////        mapView=(MapView)getFragmentManager().findFragmentById(R.id.map).getView();
@@ -61,29 +74,17 @@ public class ContactcontentFragment extends Fragment  {
     }
 
 
-
-//    public void onMapReady(GoogleMap map) {
-//        LatLng sydney = new LatLng(-33.867, 151.206);
-//
-//        map.setMyLocationEnabled(true);
-//        map.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, 13));
-//
-//        map.addMarker(new MarkerOptions()
-//                .title("Sydney")
-//                .snippet("The most populous city in Australia.")
-//                .position(sydney));
-//    }
-//    @Override
-//    public void onAttach(Activity activity) {
-//        myContext=(FragmentActivity) activity;
-//        super.onAttach(activity);
-//    }
+    @Override
+    public void onMapReady(final GoogleMap map) {
+        //this.map = map;
+        CameraUpdate center =
+                CameraUpdateFactory.newLatLng(new LatLng(29.378600, 47.990282));
+        CameraUpdate zoom = CameraUpdateFactory.zoomTo(10);
+        map.addMarker(new MarkerOptions()
+                .position(new LatLng(29.378600, 47.990282))
+                .title("Beyout Investment Group")).showInfoWindow();
+        map.moveCamera(center);
+        map.animateCamera(zoom);
+        //map.setMyLocationEnabled(true);
+    }
 }
-
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        getMenuInflater().inflate(R.menu.activity_main, menu);
-//        return true;
-//    }
-
-
